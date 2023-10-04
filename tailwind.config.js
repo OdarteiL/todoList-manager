@@ -9,8 +9,8 @@ export default {
   plugins: [],
 }
 
-module.exports = {
-  plugins: [
-      require('@tailwindcss/forms'),
-  ],
-}
+// module.exports = {
+//   plugins: [
+//       require('@tailwindcss/forms'),
+//   ],
+// }
