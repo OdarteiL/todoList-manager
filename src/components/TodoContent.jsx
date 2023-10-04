@@ -7,7 +7,7 @@ import { PencilLine } from '@phosphor-icons/react/dist/ssr'
 export default function TodoContent() {
   return (
     <>
-        <div className="content mx-[10%] bg-white absolute top-[32%] rounded w-[80%] h-[50%] px-7 py-5 shadow-lg  md:w-[80%]">
+        <div className="content mx-[10%] mt-7 bg-white absolute top-[32%] rounded w-[80%] h-[50%] px-7 py-5 shadow-lg  md:w-[80%]">
             <div className='flex align-middle mb-3'>
                 <ListChecks size={20} /> <h1 className='ml-1'>Activities</h1>
             </div>
