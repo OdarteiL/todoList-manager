@@ -8,11 +8,10 @@ export default function TodoForm() {
       <div className="main-container">
         <div className="top"></div>
         <div className="background w-screen absolute top-[180px]">
-          <div className="top-bg w-full relative" >
-            <div className='w-[80%] mx-[10%] md:w-[70%] lg:w-[70%]'><label htmlFor="" className='text-white'>Task</label></div>
-            <input type="text" placeholder='Your Task' className='w-[80%] mx-[10%] px-[3%] md:w-[80%]  lg:w-[80%]' />
-            <button className=' absolute left-[82%] text-white p-[10px] rounded-r-[10px] bg-slate-950 md:left-[88%] md:left-[88%] '><PaperPlaneRight size={20} /></button>
-          </div>
+          <form className="top-bg w-full relative" >
+            <input type="text" placeholder='Your Task' className='mx-[10%] w-[80%] px-[3%] md:w-[80%]  lg:w-[80%]' />
+            <button className=' absolute left-[82%] text-white p-[10px] rounded-r-[10px] bg-slate-950 md:left-[85.3%] lg:left-[87.5%] '><PaperPlaneRight size={20} /></button>
+          </form>
         </div>
       </div>
     </>

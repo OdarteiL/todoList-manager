@@ -1,4 +1,5 @@
 import './App.css'
+import TodoContent from './components/TodoContent'
 import TodoForm from './components/TodoForm'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <TodoForm />
+     <TodoContent />
     </>
   )
 }
