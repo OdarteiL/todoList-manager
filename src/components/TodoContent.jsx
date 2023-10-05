@@ -18,8 +18,8 @@ export default function TodoContent() {
                 <div className='flex justify-between'>
                     <li>Cook Food</li>
                     <div className='flex'>
-                        <Trash size={17} className='mr-2'/>
-                        <PencilLine size={17} />
+                        <button><Trash size={17} className='mr-2'/></button>
+                        <button><PencilLine size={17} /></button>
                     </div>
                 </div>
                 <hr />
